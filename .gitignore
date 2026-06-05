@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Reference PDFs (paper is distributed via arXiv, not committed here)
+*.pdf
+
+# Pipeline outputs / artifacts (written by the README workflows)
+eval_results/
+interpretability_results/
+paper/figures/
+wandb/
+
+# Env
+.venv/
+venv/
+.env
